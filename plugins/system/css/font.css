@@ -1,0 +1,463 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.eot');
+    src: url('../fonts/Roboto-Lightd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Light-v2.woff2') format('woff2'),
+    url('../fonts/Roboto-Light-v2.woff') format('woff'),
+    url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regulard41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular-v2.woff2') format('woff2'),
+    url('../fonts/Roboto-Regular-v2.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icons-font';
+    src: url('../fonts/icons-v1.eot');
+    src: url('../fonts/icons-v1d41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icons-v1.woff') format('woff'),
+    url('../fonts/icons-v1.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.icons::before, .icons::after {
+    speak: none;
+    line-height: 1;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'icons-font';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sendmessage:before {
+    content: "\e925";
+}
+.icon-rocket:before {
+    content: "\e926";
+}
+.icon-pin::before {
+    content: "\00b7";
+}
+.icon-fire:before {
+    content: "\e927";
+}
+.icon-pro:before {
+    content: "\e928";
+}
+.icon-up:before {
+    content: "\e922";
+}
+.icon-views:before {
+    content: "\e923";
+}
+.icon-marker:before {
+    content: "\e924";
+}
+.icon-photos:before {
+    content: "\e918";
+}
+.icon-exclamation:before {
+    content: "\e919";
+}
+.icon-rejected:before {
+    content: "\e91a";
+}
+.icon-flag:before {
+    content: "\e91b";
+}
+.icon-prize:before {
+    content: "\e91c";
+}
+.icon-morevisits:before {
+    content: "\e91d";
+}
+.icon-closed:before {
+    content: "\e91e";
+}
+.icon-bank:before {
+    content: "\e91f";
+}
+.icon-creditcard:before {
+    content: "\e920";
+}
+.icon-approved:before {
+    content: "\e921";
+}
+.icon-bathrooms:before {
+    content: "\e916";
+}
+.icon-bedrooms:before {
+    content: "\e917";
+}
+.icon-settings:before {
+    content: "\e914";
+}
+.icon-bump-up:before {
+    content: "\e915";
+}
+.icon-forsale:before {
+    content: "\74";
+}
+.icon-mobile:before {
+    content: "\e900";
+}
+.icon-smarthpones:before {
+    content: "\e602";
+}
+.icon-electronics:before {
+    content: "\f1";
+}
+.icon-computers:before {
+    content: "\62";
+}
+.icon-music:before {
+    content: "\e901";
+}
+.icon-travel:before {
+    content: "\e902";
+}
+.icon-tools:before {
+    content: "\e603";
+}
+.icon-amenities:before {
+    content: "\e609";
+}
+.icon-classes:before {
+    content: "\6b";
+}
+.icon-community:before {
+    content: "\6e";
+}
+.icon-farming:before {
+    content: "\70";
+}
+.icon-fashion:before {
+    content: "\71";
+}
+.icon-furniture:before {
+    content: "\75";
+}
+.icon-matrimonial:before {
+    content: "\e605";
+}
+.icon-realestate:before {
+    content: "\e903";
+}
+.icon-buildings:before {
+    content: "\26";
+}
+.icon-industry:before {
+    content: "\3e";
+}
+.icon-games:before {
+    content: "\77";
+}
+.icon-babies:before {
+    content: "\64";
+}
+.icon-animals:before {
+    content: "\61";
+}
+.icon-services:before {
+    content: "\3d";
+}
+.icon-sports:before {
+    content: "\2b";
+}
+.icon-instruments:before {
+    content: "\b4";
+}
+.icon-vehicles:before {
+    content: "\3a";
+}
+.icon-jobs:before {
+    content: "\2d";
+}
+.icon-user:before {
+    content: "\5f";
+}
+.icon-photo:before {
+    content: "\67";
+}
+.icon-add-photo:before {
+    content: "\66";
+}
+.icon-idea:before {
+    content: "\e60b";
+}
+.icon-happy:before {
+    content: "\7a";
+}
+.icon-doubt:before {
+    content: "\28";
+}
+.icon-thumb:before {
+    content: "\e60d";
+}
+.icon-chat:before {
+    content: "\e904";
+}
+.icon-dialog:before {
+    content: "\69";
+}
+.icon-mail:before {
+    content: "\6f";
+}
+.icon-phone:before {
+    content: "\22";
+}
+.icon-edit:before {
+    content: "\e905";
+}
+.icon-posting:before {
+    content: "\21";
+}
+.icon-pin:before {
+    content: "\b7";
+}
+.icon-tag:before {
+    content: "\2a";
+}
+.icon-cash:before {
+    content: "\2f";
+}
+.icon-money-round:before {
+    content: "\e600";
+}
+.icon-wallet:before {
+    content: "\e906";
+}
+.icon-saved-searches:before {
+    content: "\e907";
+}
+.icon-search:before {
+    content: "\29";
+}
+.icon-zoom-in:before {
+    content: "\e908";
+}
+.icon-zoom-out:before {
+    content: "\65";
+}
+.icon-back:before {
+    content: "\63";
+}
+.icon-ok:before {
+    content: "\e90a";
+}
+.icon-great:before {
+    content: "\e90b";
+}
+.icon-cross:before {
+    content: "\6a";
+}
+.icon-close:before {
+    content: "\e90c";
+}
+.icon-favorite-off:before {
+    content: "\e604";
+}
+.icon-favorite-on:before {
+    content: "\e90d";
+}
+.icon-more:before {
+    content: "\25";
+}
+.icon-attention:before {
+    content: "\e60c";
+}
+.icon-help-round:before {
+    content: "\3c";
+}
+.icon-trash:before {
+    content: "\5e";
+}
+.icon-unlocked:before {
+    content: "\e90e";
+}
+.icon-lock:before {
+    content: "\2c";
+}
+.icon-star:before {
+    content: "\3f";
+}
+.icon-star-round:before {
+    content: "\e607";
+}
+.icon-time:before {
+    content: "\e90f";
+}
+.icon-history:before {
+    content: "\6c";
+}
+.icon-list-view:before {
+    content: "\e910";
+}
+.icon-gallery-view:before {
+    content: "\e911";
+}
+.icon-card-view:before {
+    content: "\e912";
+}
+.icon-map:before {
+    content: "\2e";
+}
+.icon-global:before {
+    content: "\e601";
+}
+.icon-attach:before {
+    content: "\e606";
+}
+.icon-play:before {
+    content: "\24";
+}
+.icon-fb-round:before {
+    content: "\72";
+}
+.icon-fb:before {
+    content: "\73";
+}
+.icon-tw-round:before {
+    content: "\c7";
+}
+.icon-tw:before {
+    content: "\a8";
+}
+.icon-yt:before {
+    content: "\e913";
+}
+.icon-yt-round:before {
+    content: "\3b";
+}
+.icon-g:before {
+    content: "\79";
+}
+.icon-g-round:before {
+    content: "\78";
+}
+.icon-olx:before {
+    content: "\ba";
+}
+
+/* Arrows - CSS rotate */
+.icon-arrow-left::before {
+    content: "\63";
+}
+.icon-arrow-up::before {
+    content: "\63";
+    transform: rotate(90deg);
+}
+.icon-arrow-right::before {
+    content: "\63";
+    transform: rotate(180deg);
+}
+.icon-arrow-down::before {
+    content: "\63";
+    transform: rotate(270deg);
+}
+
+/* Pointer - CSS rotate */
+.icon-pointer:before,
+.icon-pointer-right:before {
+    content: "\e909";
+}
+.icon-pointer-up::before {
+    content: "\e909";
+    transform: rotate(270deg);
+}
+.icon-pointer-left::before {
+    content: "\e909";
+    transform: rotate(180deg);
+}
+.icon-pointer-down::before {
+    content: "\e909";
+    transform: rotate(90deg);
+}
+
+/* CATEGORIES: */
+.icon-cat-16::before { /* Real Estate */
+    content: "\26";
+}
+.icon-cat-185::before { /* For Sale */
+    content: "\74";
+}
+.icon-cat-186::before { /* Classes */
+    content: "\6b";
+}
+.icon-cat-187::before { /* Communities */
+    content: "\6e";
+}
+.icon-cat-190::before,
+.icon-cat-821::before { /* Jobs */
+    content: "\2d";
+}
+.icon-cat-191::before,
+.icon-cat-1046::before { /* Services */
+    content: "\3d";
+}
+.icon-cat-362::before { /* Vehicles */
+    content: "\3a";
+}
+.icon-cat-600::before,
+.icon-cat-1013::before { /* Industrial machines */
+    content: "\70";
+}
+.icon-cat-800::before { /* TV - Audio - Video - Cameras */
+    content: "\f1";
+}
+.icon-cat-806::before { /* Home - Furniture - Garden */
+    content: "\75";
+}
+.icon-cat-811::before { /* Animals - Pets */
+    content: "\61";
+}
+.icon-cat-815::before { /* Fashion - Beauty */
+    content: "\71";
+}
+.icon-cat-830::before { /* Cell Phones - Tablets */
+    content: "\e602";
+}
+.icon-cat-853::before,
+.icon-cat-1040::before { /* Babies - Kids - Toys */
+    content: "\64";
+}
+.icon-cat-859::before { /* Hobbies - Music - Arts - Books */
+    content: "\e901";
+}
+.icon-cat-881::before,
+.icon-cat-1007::before { /* Sports - Bicycles */
+    content: "\2b";
+}
+.icon-cat-938::before {
+    content: "\e603"; /* Tools, Industrial and Office material */
+}
+.icon-cat-1016::before { /* Computers - Laptops */
+    content: "\62";
+}
+.icon-cat-1022::before { /* Video games - Consoles */
+    content: "\77";
+}
+.icon-cat-1028::before { /* Home appliances */
+    content: "\e609";
+}
+.icon-cat-sub::before {
+    content: " ";
+    width: 24px;
+    height: 24px;
+}
